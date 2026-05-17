@@ -20,6 +20,7 @@
 | **AgentExtract** | Multimodal PDF and document extraction at scale. LLM-powered ingestion of text, graphs, charts, and tables — turning unstructured documents into structured, actionable data. | 🟡 Beta |
 | **AgentAssist** | Build domain-specific AI assistants with natural language interfaces. Tailored templates for focused customer segments — diaspora audiences, non-native speakers, specialized industries. | 🟡 Beta |
 | **AgentVerify** | KYC, biometric authentication, background checks, and credential validation. Integrates digital ID systems to verify users and validate licenses autonomously. | 🔵 In Development |
+| **AgentAdvisor** | AI back office for tax + wealth advisory firms. Automates document intake, bookkeeping categorization, client comms, quarterly estimates, and IRS notice triage — so advisors do less paperwork and more advising. | 🔵 In Development |
 
 Naming convention: `Agent[Verb]`. Every agent is a standalone system built for one job — no bloat, no feature creep, autonomous execution at production scale.
 
