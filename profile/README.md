@@ -1,46 +1,44 @@
 # VireoAgents
 
-> Purpose-built agentic AI workflows. Each agent is custom-built, domain-specific, and designed to run autonomously in production. These aren't wrappers around ChatGPT.
+> **AI Agents That Do Real Work.**
+> Purpose-built agentic workflows that run autonomously in production. Not chatbot wrappers — custom-built systems designed for a single mission.
 
-**Website**: [vireoagents.com](https://vireoagents.com)
-**Operating company**: Vireo LLC
+[**vireoagents.com**](https://vireoagents.com) &middot; Production-grade AI systems &middot; Battle-tested infrastructure &middot; Real results, not demos
 
 ---
 
-## Agent portfolio
+## The Fleet
 
-| Agent | Status | What it does |
+| Agent | Mission | Status |
 |---|---|---|
-| **AgentApply** | Live | Autonomous job search — scores, tailors, and prepares applications across 14+ platforms |
-| **AgentScraper** | Live | Fleet-managed data collection with proxy rotation, CAPTCHA solving, distributed workers |
-| **AgentMatch** | Deploying | Intelligent two-sided matching — compatibility scoring, plain-language reasoning, feedback learning |
-| **AgentProcure** | Planned | Procurement automation — vendor matching, RFP analysis, compliance |
-| **AgentInvoice** | Planned | Invoice processing — extraction, validation, routing, exception handling |
-| **AgentVerify** | Planned | Identity & credential verification — KYC, biometric auth, background checks, visa/license validation |
-| **AgentExtract** | Planned | Document intelligence — multimodal PDF extraction, LLM-powered ingestion of text/graphs/charts/tables at scale |
-| **AgentAssist** | Planned | Custom AI assistants — natural language interfaces, tailored templates for focused customer segments |
+| **AgentApply** | Scans 14+ hiring platforms, scores every job 0-100 against your profile, tailors applications, and learns from your feedback. Runs while you sleep. | 🟢 Live |
+| **AgentScraper** | Distributed browser fleet with proxy rotation, CAPTCHA solving, and real-time command center. Manages thousands of concurrent workers across AWS. | 🟢 Live |
+| **AgentMatch** | AI-powered compatibility scoring with explainable reasoning. Feedback learning makes every match smarter. Plug into any marketplace. | 🟢 Live |
+| **AgentProcure** | Vendor matching, RFP analysis, and compliance verification. Autonomous sourcing that finds the right suppliers and validates every requirement. | 🟡 Beta |
+| **AgentInvoice** | Extraction, validation, routing, and exception handling. Reads any invoice format, maps to your GL codes, and flags anomalies automatically. | 🟡 Beta |
+| **AgentExtract** | Multimodal PDF and document extraction at scale. LLM-powered ingestion of text, graphs, charts, and tables — turning unstructured documents into structured, actionable data. | 🟡 Beta |
+| **AgentAssist** | Build domain-specific AI assistants with natural language interfaces. Tailored templates for focused customer segments — diaspora audiences, non-native speakers, specialized industries. | 🟡 Beta |
+| **AgentVerify** | KYC, biometric authentication, background checks, and credential validation. Integrates digital ID systems to verify users and validate licenses autonomously. | 🔵 In Development |
+| **GlobalCareersHub** | WordPress + AgentApply SSO. Proof that our agents plug into existing platforms — not just our own stack. | 🟢 Live |
 
-Naming convention: `Agent[Verb]`. The shared engine behind matching/scoring is **AgentMatch** — extracted from AgentApply's core, packaged for re-use across deployments.
-
----
-
-## For our team
-
-Internal-only docs live in [`vireoagents/seed-framework`](https://github.com/vireoagents/seed-framework) (private):
-
-- [`FRAMEWORK-PLAN.md`](https://github.com/vireoagents/seed-framework/blob/main/FRAMEWORK-PLAN.md) — source-of-truth design
-- [`docs/GETTING-STARTED.md`](https://github.com/vireoagents/seed-framework/blob/main/docs/GETTING-STARTED.md) — scaffold a new agent in one command
-- [`docs/ONBOARDING.md`](https://github.com/vireoagents/seed-framework/blob/main/docs/ONBOARDING.md) — new dev setup from `gh auth login` to first PR
-- [`docs/GUARDRAILS.md`](https://github.com/vireoagents/seed-framework/blob/main/docs/GUARDRAILS.md) — the Tier-1 rules every project inherits
-- [`docs/SECRETS.md`](https://github.com/vireoagents/seed-framework/blob/main/docs/SECRATS.md) — 1Password + AWS SSM model
-- [`docs/INFRA-CONVENTIONS.md`](https://github.com/vireoagents/seed-framework/blob/main/docs/INFRA-CONVENTIONS.md) — systemd / nginx / IAM standard shapes
-
-For new machines: `bash <(curl -fsSL https://raw.githubusercontent.com/vireoagents/bootstrap/main/bootstrap.sh)`
+Naming convention: `Agent[Verb]`. Every agent is a standalone system built for one job — no bloat, no feature creep, autonomous execution at production scale.
 
 ---
 
-## For client engagements
+## Working with us
 
-VireoAgents (Vireo LLC) takes on custom build engagements. Contact: `connect@vireoconsult.com`.
+**Clients**: Custom builds, AgentMatch deployments, integrations. → [vireoagents.com/#contact](https://vireoagents.com/#contact) or `connect@vireoconsult.com`
 
-Standard package pricing for AgentMatch deployments — see internal proposal templates.
+**Developers joining the team**: Internal onboarding lives in [`vireoagents/seed-framework`](https://github.com/vireoagents/seed-framework) (private). New machine setup is one command — see [bootstrap](https://github.com/vireoagents/bootstrap).
+
+---
+
+## Public repos
+
+- [`bootstrap`](https://github.com/vireoagents/bootstrap) — one-liner installer that provisions a new dev machine with the full VireoAgents toolchain.
+
+Most of our code is private. The agents are commercial products, not open source. We share the bootstrap installer publicly because it's the on-ramp for new collaborators.
+
+---
+
+*Vireo LLC, building agentic AI workflows since 2024.*
